@@ -3,92 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эрдэнэбаяр Анхбаяр - CV</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #74ebd5, #ACB6E5);
-            color: #333;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-        }
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-        header p {
-            margin: 5px 0 0 0;
-            font-size: 20px;
-        }
-        main {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: rgba(255,255,255,0.9);
-            border-radius: 15px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        h2 {
-            border-bottom: 3px solid #4CAF50;
-            padding-bottom: 8px;
-            color: #4CAF50;
-        }
-        ul {
-            list-style-type: square;
-            padding-left: 25px;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-        .photo {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 15px auto;
-            display: block;
-            border: 4px solid #4CAF50;
-        }
-    </style>
+    <title>Таны Нэр - CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header>
-        <h1>Эрдэнэбаяр Анхбаяр</h1>
-        <p>Веб хөгжүүлэгч | Программист | IT Шинжлэх ухааны сонирхолтой</p>
+        <div class="container">
+            <img src="profile.jpg" alt="Таны зураг" class="profile-img">
+            <h1>Таны Нэр</h1>
+            <p>Мэргэжил: Веб хөгжүүлэгч | Программист</p>
+        </div>
     </header>
 
     <main>
-        <img src="profile.jpg" alt="Анхбаярын зураг" class="photo">
-
-        <section>
-            <h2>Товч намтар</h2>
+        <section class="about">
+            <h2>Танилцуулга</h2>
             <p>Би веб хөгжүүлэлт, програмчлалд дуртай, бүтээлч, асуудлыг шийдвэрлэх чадвартай программист. Мөн код бичих тэмцээн, төсөлд идэвхтэй оролцдог.</p>
         </section>
 
-        <section>
-            <h2>Чадварууд</h2>
+        <section class="experience">
+            <h2>Туршлага</h2>
+            <ul>
+                <li>XYZ компанид веб хөгжүүлэгчээр ажилласан</li>
+                <li>Олон код бичих тэмцээнд оролцсон</li>
+                <li>Хувийн төсөл, портфолио вэбсайт бүтээсэн</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Боловсрол</h2>
+            <ul>
+                <li>Компьютерийн шинжлэх ухааны бакалавр</li>
+                <li>Ерөнхий боловсролын дунд сургууль</li>
+            </ul>
+        </section>
+
+        <section class="skills">
+            <h2>Ур чадварууд</h2>
             <ul>
                 <li>HTML, CSS, JavaScript</li>
                 <li>Python, C++</li>
@@ -98,34 +49,16 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Туршлага</h2>
-            <ul>
-                <li>XYZ компанид веб хөгжүүлэгчээр дадлага</li>
-                <li>Олон код бичих тэмцээнд оролцсон</li>
-                <li>Хувийн төсөл, портфолио вэбсайт бүтээсэн</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Боловсрол</h2>
-            <ul>
-                <li>Компьютерийн шинжлэх ухааны бакалавр</li>
-                <li>Ерөнхий боловсролын дунд сургууль</li>
-            </ul>
-        </section>
-
-        <section>
+        <section class="contact">
             <h2>Холбоо барих</h2>
-            <p>Имэйл: <a href="mailto:ankhbayar@example.com">ankhbayar@example.com</a></p>
-            <p>GitHub: <a href="https://github.com/ankh666" target="_blank">github.com/ankh666</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/ankhbayar" target="_blank">linkedin.com/in/ankhbayar</a></p>
+            <p>Имэйл: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
         </section>
     </main>
 
     <footer>
-        &copy; 2025 Эрдэнэбаяр Анхбаяр
+        <p>&copy; 2025 Таны Нэр</p>
     </footer>
-
 </body>
 </html>

@@ -1,0 +1,58 @@
+/* Бүх биеийн тохиргоо */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Хэсгийн тохиргоо */
+header, main, footer {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Контейнер тохиргоо */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Хүснэгтүүдийн тохиргоо */
+h1, h2 {
+    color: #4CAF50;
+}
+
+/* Зураг тохиргоо */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Хэсгийн тохиргоо */
+section {
+    margin-bottom: 30px;
+}
+
+/* Холбоо барих хэсгийн тохиргоо */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer тохиргоо */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
