@@ -1,117 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankhbayar Erdenebayar - CV</title>
+    <title>Эрдэнэбаяр Анхбаяр - CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            line-height: 1.6;
-            background-color: #f4f4f4;
+            padding: 0;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
             color: #333;
         }
         header {
-            background: #4CAF50;
+            background-color: #4CAF50;
             color: white;
-            padding: 20px 0;
+            padding: 40px 20px;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
         }
         header h1 {
             margin: 0;
+            font-size: 36px;
         }
-        nav {
-            text-align: center;
-            margin: 10px 0;
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 20px;
         }
-        nav a {
-            margin: 0 15px;
-            color: #4CAF50;
-            text-decoration: none;
-            font-weight: bold;
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
         section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background: white;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
         }
         h2 {
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 5px;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 8px;
+            color: #4CAF50;
         }
         ul {
             list-style-type: square;
+            padding-left: 25px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         footer {
             text-align: center;
-            padding: 15px;
-            background: #333;
+            padding: 20px;
+            background-color: #333;
             color: white;
+            margin-top: 20px;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 15px auto;
+            display: block;
+            border: 4px solid #4CAF50;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Ankhbayar Erdenebayar</h1>
-    <p>Web Developer | Programmer | Tech Enthusiast</p>
-</header>
+    <header>
+        <h1>Эрдэнэбаяр Анхбаяр</h1>
+        <p>Веб хөгжүүлэгч | Программист | IT Шинжлэх ухааны сонирхолтой</p>
+    </header>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <main>
+        <img src="profile.jpg" alt="Анхбаярын зураг" class="photo">
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I am Ankhbayar, a passionate web developer and programmer with experience in HTML, CSS, JavaScript, and more. I enjoy creating websites and solving problems with code.</p>
-</section>
+        <section>
+            <h2>Товч намтар</h2>
+            <p>Би веб хөгжүүлэлт, програмчлалд дуртай, бүтээлч, асуудлыг шийдвэрлэх чадвартай программист. Мөн код бичих тэмцээн, төсөлд идэвхтэй оролцдог.</p>
+        </section>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>Python & C++ programming</li>
-        <li>Git & GitHub version control</li>
-        <li>Responsive Web Design</li>
-        <li>Basic knowledge of SQL & databases</li>
-    </ul>
-</section>
+        <section>
+            <h2>Чадварууд</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, C++</li>
+                <li>Git & GitHub</li>
+                <li>Бүрэн уян хатан веб дизайн</li>
+                <li>Асуудал шийдвэрлэх & Алгоритм</li>
+            </ul>
+        </section>
 
-<section id="experience">
-    <h2>Experience</h2>
-    <ul>
-        <li><strong>Intern Web Developer</strong> - XYZ Company (2024)</li>
-        <li><strong>Student Programmer</strong> - IT University Projects (2023-2024)</li>
-    </ul>
-</section>
+        <section>
+            <h2>Туршлага</h2>
+            <ul>
+                <li>XYZ компанид веб хөгжүүлэгчээр дадлага</li>
+                <li>Олон код бичих тэмцээнд оролцсон</li>
+                <li>Хувийн төсөл, портфолио вэбсайт бүтээсэн</li>
+            </ul>
+        </section>
 
-<section id="education">
-    <h2>Education</h2>
-    <ul>
-        <li>IT University / Computer Science / 2021 - Present</li>
-        <li>High School Diploma - Science & Math Focus</li>
-    </ul>
-</section>
+        <section>
+            <h2>Боловсрол</h2>
+            <ul>
+                <li>Компьютерийн шинжлэх ухааны бакалавр</li>
+                <li>Ерөнхий боловсролын дунд сургууль</li>
+            </ul>
+        </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:ankh@example.com">ankh@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/ankh666">https://github.com/ankh666</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/ankhbayar">https://linkedin.com/in/ankhbayar</a></p>
-</section>
+        <section>
+            <h2>Холбоо барих</h2>
+            <p>Имэйл: <a href="mailto:ankhbayar@example.com">ankhbayar@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/ankh666" target="_blank">github.com/ankh666</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/ankhbayar" target="_blank">linkedin.com/in/ankhbayar</a></p>
+        </section>
+    </main>
 
-<footer>
-    &copy; 2025 Ankhbayar Erdenebayar. All rights reserved.
-</footer>
+    <footer>
+        &copy; 2025 Эрдэнэбаяр Анхбаяр
+    </footer>
 
 </body>
 </html>
